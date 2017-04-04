@@ -1,0 +1,10 @@
+{
+    "mem_size": 1048576,
+    "cache_size": 2048,
+    "block_size": 16,
+    "associativity": 4,
+    "hit_time": 10,
+    "access_time": 1000,
+    "write_policy": "write-through",
+    "replacement_policy": "FIFO"
+}
