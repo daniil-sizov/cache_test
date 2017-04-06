@@ -5,6 +5,7 @@ This is small project for study purposes.
 ## Building
 
 mkdir build  
+cd build  
 cmake <path_to_repo_dir>  
 make  
 cd cache_test  
