@@ -4,18 +4,14 @@ This is small project for study purposes.
 
 ## Building
 
-mkdir build
-
-cmake <path_to_repo_dir>
-
-make
-
-cd cache_test
+mkdir build  
+cmake <path_to_repo_dir>  
+make  
+cd cache_test  
 
 ## Running the tests
 
-chmod +x scripts
-
+chmod +x scripts  
 ./scripts/run_all.sh
 
 ## Usage
