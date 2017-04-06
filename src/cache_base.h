@@ -12,7 +12,7 @@ public:
 
     virtual CacheResult read(int addr) = 0;
     virtual CacheResult write(int addr) = 0;
-    virtual CacheResult place_entry(int addr) = 0;
+    virtual CacheResult place_entry(int addr, bool dirty = false) = 0;
 
     static std::unique_ptr<CacheBase> create(ReplacementPolicy rp, int cs, int bs, int assoc);
 

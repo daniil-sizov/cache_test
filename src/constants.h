@@ -18,7 +18,7 @@ enum CacheResult {
     CLEAN_REPLACED          = 0x10,
     DIRTY_REPLACED          = 0x11,
     NOTHING_REPLACED        = 0x100
-}
+};
 
 const char * const CONFIG_PATH = "config.json";
 
